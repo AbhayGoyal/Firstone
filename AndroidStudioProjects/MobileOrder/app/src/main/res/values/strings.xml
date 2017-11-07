@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobile Order</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="registerbutton">Register Me!</string>
+    <string name="title_activity_newintent">newintent</string>
+    <string name="shows">Large Text</string>
+    <string name="shows2">Large Text</string>
+</resources>

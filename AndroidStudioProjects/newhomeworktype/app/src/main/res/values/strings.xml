@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">newhomeworktype</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="changes">See the changes here</string>
+    <string name="changebutton">Click Me!</string>
+</resources>
