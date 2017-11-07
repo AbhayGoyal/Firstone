@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toolbar_fi"
+        />
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_fi"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton1"
+            android:layout_gravity="left"
+            android:layout_margin="4dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/toolbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First one"
+            android:layout_margin="25dp"
+            android:gravity="center"
+            />
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_below="@+id/toolbar_fi"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first"
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/imageView1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second"
+        android:layout_margin="0dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_below="@+id/first"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/thir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="third"
+        android:textColor="#bdbdbd"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_below="@+id/sec"
+        >
+    </TextView>
+
+
+
+
+</RelativeLayout>

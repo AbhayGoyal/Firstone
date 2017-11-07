@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gas.geny.com.companion.LoginActivity">
+
+    <Button
+        android:text="Guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/guest" />
+
+    <Button
+        android:text="Rehab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guest"
+        android:layout_alignRight="@+id/guest"
+        android:layout_alignEnd="@+id/guest"
+        android:layout_marginTop="68dp"
+        android:id="@+id/rehab"
+        android:onClick="onClick()" />
+
+    <Button
+        android:text="Donate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rehab"
+        android:layout_alignLeft="@+id/rehab"
+        android:layout_alignStart="@+id/rehab"
+        android:layout_marginTop="87dp"
+        android:id="@+id/donate" />
+</RelativeLayout>
